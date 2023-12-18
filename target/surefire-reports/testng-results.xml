@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-18T13:37:33 IST" name="Surefire suite" finished-at="2023-12-18T13:38:31 IST" duration-ms="57436">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.invalidLoginTest()[pri:0, instance:seleniumpractice.seleniumtests.ErrorValidationTest@41fecb8b]" name="invalidLoginTest" class="seleniumpractice.seleniumtests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" name="submitOrder" class="seleniumpractice.seleniumtests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-12-18T13:37:33 IST" name="Surefire test" finished-at="2023-12-18T13:38:31 IST" duration-ms="57436">
+      <class name="seleniumpractice.seleniumtests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:20 IST" name="launchApplication" finished-at="2023-12-18T13:38:21 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:21 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-18T13:38:24 IST" duration-ms="2996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:24 IST" name="tearDown" finished-at="2023-12-18T13:38:24 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:24 IST" name="launchApplication" finished-at="2023-12-18T13:38:26 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:26 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-18T13:38:28 IST" duration-ms="2686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Testing@1234, product=ADIDAS ORIGINAL, email=testing123456@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:28 IST" name="tearDown" finished-at="2023-12-18T13:38:28 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:28 IST" name="launchApplication" finished-at="2023-12-18T13:38:30 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:30 IST" name="OrderHistoryTest" finished-at="2023-12-18T13:38:31 IST" depends-on-methods="seleniumpractice.seleniumtests.SubmitOrderTest.submitOrder" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractice.seleniumtests.SubmitOrderTest@10feca44]" started-at="2023-12-18T13:38:31 IST" name="tearDown" finished-at="2023-12-18T13:38:31 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumpractice.seleniumtests.SubmitOrderTest -->
+      <class name="seleniumpractice.seleniumtests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumpractice.seleniumtests.ErrorValidationTest@41fecb8b]" started-at="2023-12-18T13:37:33 IST" name="launchApplication" finished-at="2023-12-18T13:38:19 IST" duration-ms="45902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:seleniumpractice.seleniumtests.ErrorValidationTest@41fecb8b]" started-at="2023-12-18T13:38:19 IST" name="invalidLoginTest" finished-at="2023-12-18T13:38:20 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumpractice.seleniumtests.ErrorValidationTest@41fecb8b]" started-at="2023-12-18T13:38:20 IST" name="tearDown" finished-at="2023-12-18T13:38:20 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumpractice.seleniumtests.ErrorValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

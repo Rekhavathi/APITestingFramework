@@ -1,0 +1,8 @@
+seleniumframeworkdesign\pageobjects\CheckOutPage.class
+seleniumframeworkdesign\pageobjects\LandingPage.class
+seleniumframeworkdesign\AbstractComponents\AbstractComponent.class
+seleniumframeworkdesign\pageobjects\CartPage.class
+seleniumframeworkdesign\pageobjects\ConfirmationPage.class
+seleniumframeworkdesign\pageobjects\ProductCatalog.class
+seleniumframeworkdesign\pageobjects\OrderPage.class
+seleniumframeworkdesign\resources\ExtentReporting.class
